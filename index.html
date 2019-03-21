@@ -15,19 +15,17 @@
         First name:<br>
         <input type="text" id="firstName"><br>
         Last name:<br>
-        <input type="text" 
-                id="lastName"
-                oninput="myFunction()">
+        <input type="text" id="lastName" oninput="myFunction()">
     </form>
 
-<p id=result>before</p>
+    <p id=result>before</p>
 
-<script>
-    function myFunction() {
-      document.getElementById("result").innerHTML =
-      document.getElementById("lastName").value;
-    }
-</script>
+    <script>
+        function myFunction() {
+            document.getElementById("result").innerHTML =
+                document.getElementById("lastName").value;
+        }
+    </script>
 </body>
 
 </html>
